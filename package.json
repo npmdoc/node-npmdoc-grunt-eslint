@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"grunt-eslint",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "grunt-eslint",
+    "description": "api documentation for [grunt-eslint (v19.0.0)](https://github.com/sindresorhus/grunt-eslint#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-eslint.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-eslint) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-eslint.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-eslint)",
     "devDependencies": {
-        "grunt-eslint": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "grunt-eslint": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-grunt-eslint",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-grunt-eslint",
+    "keywords": [
+        "documentation",
+        "grunt-eslint"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_grunt_eslint.js",
+    "name": "npmdoc-grunt-eslint",
+    "nameAlias": "npmdoc_grunt_eslint",
+    "nameOriginal": "npmdoc-grunt-eslint",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-grunt-eslint"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
