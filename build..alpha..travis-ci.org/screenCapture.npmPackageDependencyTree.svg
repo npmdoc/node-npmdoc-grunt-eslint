@@ -18,7 +18,7 @@
 <tspan x="10" y="250">    │ └── js-tokens@3.0.1 </tspan>
 <tspan x="10" y="266">    ├─┬ concat-stream@1.6.0 </tspan>
 <tspan x="10" y="282">    │ ├── inherits@2.0.3 </tspan>
-<tspan x="10" y="298">    │ ├─┬ readable-stream@2.2.8 </tspan>
+<tspan x="10" y="298">    │ ├─┬ readable-stream@2.2.9 </tspan>
 <tspan x="10" y="314">    │ │ ├── buffer-shims@1.0.0 </tspan>
 <tspan x="10" y="330">    │ │ ├── core-util-is@1.0.2 </tspan>
 <tspan x="10" y="346">    │ │ ├── process-nextick-args@1.0.7 </tspan>
