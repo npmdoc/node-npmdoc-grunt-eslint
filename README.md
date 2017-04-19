@@ -1,9 +1,14 @@
-# api documentation for  [grunt-eslint (v19.0.0)](https://github.com/sindresorhus/grunt-eslint#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-eslint.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-eslint) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-eslint.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-eslint)
+# npmdoc-grunt-eslint
+
+#### api documentation for  [grunt-eslint (v19.0.0)](https://github.com/sindresorhus/grunt-eslint#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-eslint.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-eslint) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-eslint.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-eslint)
+
 #### Validate files with ESLint
 
-[![NPM](https://nodei.co/npm/grunt-eslint.png?downloads=true)](https://www.npmjs.com/package/grunt-eslint)
+[![NPM](https://nodei.co/npm/grunt-eslint.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-eslint)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-eslint/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-grunt-eslint%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-eslint/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-eslint/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-eslint/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-eslint/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-eslint/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-eslint/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "bugs": {
@@ -60,8 +64,7 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "grunt-eslint",
@@ -69,7 +72,6 @@
     "peerDependencies": {
         "grunt": ">=0.4.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/grunt-eslint.git"
@@ -83,16 +85,6 @@
     }
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-eslint](#apidoc.module.grunt-eslint)
-
-
-
-# <a name="apidoc.module.grunt-eslint"></a>[module grunt-eslint](#apidoc.module.grunt-eslint)
 
 
 
